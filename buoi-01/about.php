@@ -1,10 +1,5 @@
 ```php
 <?php
-
-// ===============================
-// THÔNG TIN CÁ NHÂN
-// ===============================
-
 $name = "PHẠM THỊ HOÀNG LAN";
 $position = "SINH VIÊN CÔNG NGHỆ THÔNG TIN";
 
@@ -15,21 +10,11 @@ $contact = [
     "github" => "224001802"
 ];
 
-
-// ===============================
-// GIỚI THIỆU
-// ===============================
-
 $introduction = "
 Tôi là sinh viên ngành Công nghệ thông tin, có kiến thức cơ bản
 về lập trình Web và cơ sở dữ liệu. Tôi đang tập trung phát triển
 kỹ năng PHP, HTML, CSS, SQL và Git/GitHub.
 ";
-
-
-// ===============================
-// MỤC TIÊU NGHỀ NGHIỆP
-// ===============================
 
 $careerGoal = "
 Mong muốn được tham gia thực tập và làm việc trong lĩnh vực
@@ -38,11 +23,6 @@ vào các dự án thực tế, đồng thời nâng cao khả năng làm việc
 và phát triển phần mềm.
 ";
 
-
-// ===============================
-// HỌC VẤN
-// ===============================
-
 $education = [
     "school" => "TRƯỜNG ĐẠI HỌC THỦ ĐÔ HÀ NỘI",
     "major" => "Công nghệ thông tin",
@@ -50,10 +30,6 @@ $education = [
     "gpa" => "3.16 / 4.0"
 ];
 
-
-// ===============================
-// KỸ NĂNG
-// ===============================
 
 $skills = [
     "PHP",
@@ -64,10 +40,6 @@ $skills = [
     "JavaScript"
 ];
 
-
-// ===============================
-// DỰ ÁN
-// ===============================
 
 $projects = [
     [
@@ -93,10 +65,6 @@ $projects = [
     ]
 ];
 
-
-// ===============================
-// KINH NGHIỆM
-// ===============================
 
 $experiences = [
     "Phân tích yêu cầu và xác định chức năng của hệ thống.",
@@ -125,10 +93,6 @@ $experiences = [
     </title>
 
 
-    <!-- ===============================
-         CSS
-    ================================ -->
-
     <style>
 
         * {
@@ -147,12 +111,6 @@ $experiences = [
 
             line-height: 1.6;
         }
-
-
-        /* ===============================
-           KHUNG CV
-        ================================ */
-
         .cv {
             width: 900px;
 
@@ -167,11 +125,6 @@ $experiences = [
             box-shadow:
                 0 5px 25px rgba(0, 0, 0, 0.12);
         }
-
-
-        /* ===============================
-           HEADER
-        ================================ */
 
         .header {
             display: flex;
@@ -214,11 +167,6 @@ $experiences = [
             color: #555;
         }
 
-
-        /* ===============================
-           SECTION
-        ================================ */
-
         section {
             margin-bottom: 25px;
         }
@@ -240,12 +188,6 @@ $experiences = [
         section p {
             font-size: 14px;
         }
-
-
-        /* ===============================
-           2 CỘT
-        ================================ */
-
         .content {
             display: grid;
 
@@ -265,11 +207,6 @@ $experiences = [
         .right {
             padding-left: 5px;
         }
-
-
-        /* ===============================
-           HỌC VẤN
-        ================================ */
 
         .item,
         .project {
@@ -297,11 +234,6 @@ $experiences = [
             margin-bottom: 5px;
         }
 
-
-        /* ===============================
-           KỸ NĂNG
-        ================================ */
-
         .skill-list {
             display: flex;
 
@@ -327,11 +259,6 @@ $experiences = [
             font-size: 13px;
         }
 
-
-        /* ===============================
-           DANH SÁCH
-        ================================ */
-
         ul {
             padding-left: 20px;
         }
@@ -342,11 +269,6 @@ $experiences = [
 
             margin-bottom: 6px;
         }
-
-
-        /* ===============================
-           CÔNG NGHỆ
-        ================================ */
 
         .technology {
             display: flex;
@@ -370,12 +292,6 @@ $experiences = [
 
             font-size: 13px;
         }
-
-
-        /* ===============================
-           FOOTER
-        ================================ */
-
         footer {
             margin-top: 20px;
 
@@ -389,12 +305,6 @@ $experiences = [
 
             font-size: 12px;
         }
-
-
-        /* ===============================
-           ĐIỆN THOẠI
-        ================================ */
-
         @media (max-width: 700px) {
 
             .cv {
@@ -469,11 +379,6 @@ $experiences = [
 
 <div class="cv">
 
-
-    <!-- ===============================
-         HEADER
-    ================================ -->
-
     <header class="header">
 
         <div>
@@ -511,11 +416,6 @@ $experiences = [
 
     </header>
 
-
-    <!-- ===============================
-         GIỚI THIỆU
-    ================================ -->
-
     <section>
 
         <h3>GIỚI THIỆU</h3>
@@ -525,11 +425,6 @@ $experiences = [
         </p>
 
     </section>
-
-
-    <!-- ===============================
-         MỤC TIÊU
-    ================================ -->
 
     <section>
 
@@ -542,17 +437,7 @@ $experiences = [
     </section>
 
 
-    <!-- ===============================
-         NỘI DUNG 2 CỘT
-    ================================ -->
-
     <div class="content">
-
-
-        <!-- ===============================
-             CỘT TRÁI
-        ================================ -->
-
         <div class="left">
 
 
@@ -609,11 +494,6 @@ $experiences = [
 
 
         </div>
-
-
-        <!-- ===============================
-             CỘT PHẢI
-        ================================ -->
 
         <div class="right">
 
