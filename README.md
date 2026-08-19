@@ -13,3 +13,4 @@
 ## 4. Cấu trúc thư mục
 -buoi-01/about.php: Tạo trang `about.php` giới thiệu bản thân và các dự án đã làm (trong đó có dự án lập trình web)
 -buoi-02: 2 form chức năng quản lý thông báo và quản lý thành viên clb
+-Buoi-03: form chắc năng đăng kí hoàn thiện hơn
